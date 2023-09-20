@@ -84,7 +84,7 @@ account3.checkBalance();
 account3.isActive();
 
 
-let account4=new BankAccount(3445567,"Virat Kohli","Saving",100000)
+let account4=new BankAccount(3445567,"Ishan Kihan","Saving",100000)
 account3.deposite(9000);
 account3.withdraw(30000);
 account3.checkBalance();
