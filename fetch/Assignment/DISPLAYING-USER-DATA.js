@@ -14,7 +14,7 @@
 function usersData(){
 
     let container=document.getElementById("container")
-    fetch(`https://reqres.in/api/users?page=2`)
+    fetch(`https://reqres.in/api/users`)
     .then( (res)=> res.json())
     
     .then( function(rs){
