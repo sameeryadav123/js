@@ -1,0 +1,123 @@
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MacD</title>
+<link rel="stylesheet" href="McDonald's.css">
+    
+</head>
+<body>
+    <div id="container">
+        <h1> McDonald's Virtual Order System</h1>
+        
+        <h2>Menu List</h2>
+
+        <div class="order-completed" id="hidden">
+            <h2>Order Completed!</h2>
+            <p>Your order number is : <span id="order-number"></span></p>
+        </div>
+        
+        <div class="menu">
+            <!-- <label for=""></label> -->
+            <div class="food_item">
+                
+                <img src="https://img.freepik.com/free-photo/pizza-pizza-filled-with-tomatoes-salami-olives_140725-1200.jpg?w=740&t=st=1696235578~exp=1696236178~hmac=049254780f6349d036e70e46d737b7b2651a38a63a1b1077dc686bd9a0451259" class="" alt="">
+                <br>
+                <input type="checkbox" id="pizza" name="pizza">
+                <label for="coke">Pizza</label>
+            </div>
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-photo/delicious-foods-celebration_140725-113488.jpg?t=st=1696235942~exp=1696236542~hmac=27e2479f84016624ef99deacdf6974520e232fa378d0588cf50b2a2659b4164b" class="" alt="">
+                <br>
+                <input type="checkbox" id="french-friez" name="french-friez">
+                <label for="french-friez">french-fry</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-photo/burger-hamburger-cheeseburger_505751-3690.jpg?w=740&t=st=1696236012~exp=1696236612~hmac=5d3848b9464a46e16f802d5683de57898401b0d5f3dddd5d5a82c4e3d24dc722" class="" alt="">
+                <br>
+                <input type="checkbox" id=" burger" name=" burger">
+                <label for=" burger"> burger</label>
+            </div>
+            
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-photo/closeup-shot-deliciously-prepared-chicken-served-with-onions-chili-sauce_181624-61705.jpg?size=626&ext=jpg&ga=GA1.2.707007832.1696235444&semt=sph" class="" alt="">
+                <br>
+                <input type="checkbox" id=" chicken" name=" chicken">
+                <label for=" chicken"> chicken</label>
+            </div>
+            
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-psd/asian-delicious-food-social-media-template_505751-2967.jpg?w=740&t=st=1696236088~exp=1696236688~hmac=88ecb2120097a5b2a4b4fc2d8d46e17f4e4fe47db5bd4c5de7f395016f380b3d" class="" alt="">
+                <br>
+                <input type="checkbox" id=" Biryani" name=" Biryani">
+                <label for=" Biryani">Biryani</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/228/DCMCPM-5998-1-5998.png" class="" alt="">
+                <br>
+                <input type="checkbox" id=" Double Cheese McMuffin 3 Pc Meal with Cappuccino (S)" name=" Double Cheese McMuffin 3 Pc Meal with Cappuccino (S)">
+                <label for=" Double Cheese McMuffin 3 Pc Meal with Cappuccino ">Double Cheese McMuffin 3 Pc Meal with Cappuccino (S)</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/228/169110879759241.png" class="" alt="">
+                <br>
+                <input type="checkbox" id=" 2 McVeggie Burger + Fries (L) + 2 Coke" name=" 2 McVeggie Burger + Fries (L) + 2 Coke">
+                <label for=" I2 McVeggie Burger + Fries (L) + 2 Coke">2 McVeggie Burger + Fries (L) + 2 Coke</label>
+            </div>
+          
+           
+           
+
+            <div class="food_item">
+                <img src="https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/228/BFHC2P-4674-1-4674.png" class="" alt="">
+                <br>
+                <input type="checkbox" id="Hot Cake 2 Pc Meal" name="Hot Cake 2 Pc Meal">
+                <label for="Hot Cake 2 Pc Meal">Hot Cake 2 Pc Meal</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-photo/chicken-skewers-with-slices-sweet-peppers-dill_2829-18807.jpg?size=626&ext=jpg&ga=GA1.2.707007832.1696235444&semt=sph" class="" alt="">
+                <br>
+                <input type="checkbox" id=" chicken skewers with slices of sweet peppers and dill." name=" chicken skewers with slices of sweet peppers and dill.">
+                <label for=" chicken skewers with slices of sweet peppers and dill."> chicken skewers with slices of sweet peppers and dill.</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://img.freepik.com/free-photo/italian-spaghetti-with-tomato-sauce-pan_1220-4240.jpg?w=740&t=st=1696237883~exp=1696238483~hmac=f082aa6c056d9059e83a53e52fbeb80022d935a87e9b63fdeaa715d66b6b0ec1" class="" alt="">
+                <br>
+                <input type="checkbox" id=" italian spaghetti with tomato sauce in pan" name=" italian spaghetti with tomato sauce in pan)">
+                <label for=" italian spaghetti with tomato sauce in pan"> italian spaghetti with tomato sauce in pan</label>
+            </div>
+
+
+            <div class="food_item">
+                <img src="https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/228/KITMFR-6440-1-6440.png" class="" alt="">
+                <br>
+                <input type="checkbox" id="Kit Kat McFlurry (R)" name="Kit Kat McFlurry (R)">
+                <label for="Kit Kat McFlurry (R)">Kit Kat McFlurry (R)</label>
+            </div>
+
+            <div class="food_item">
+                <img src="https://c38blhej2h.execute-api.ap-south-1.amazonaws.com/dev/png/228/CCMNEW-3673-1-3673.png" class="" alt="">
+                <br>
+                <input type="checkbox" id="Chocolate Chip Muffin" name="Chocolate Chip Muffin">
+                <label for="Chocolate Chip Muffin">Chocolate Chip Muffin </label>
+            </div>
+
+        </div>
+        <button id="order-btn" class="btn-pink">Order Food</button>
+
+        
+    </div>
+</body>
+<script src="McDonald's.js"></script>
+</html>
