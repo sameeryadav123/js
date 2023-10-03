@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h2>SignUp</h2>
+    <form action="" id="signup-form">
+        <input type="text" name="name" placeholder="Enter Your Name" required>
+        <input type="text" name="email" placeholder="Enter Your eamil" required>
+        <input type="text" name="password" placeholder="Enter Your Password" required>
+        <button type="submit">submit</button>
+    </form>
+</body>
+<script>
+
+    let signUpForm=document.getElementById('signup-form')
+
+    signUpForm.addEventListener("submit",function(event){
+        event.preventDefault()
+
+        const name=signUpForm.querySelector(`[name='name']`).value;
+        const email=signUpForm.querySelector(`[name='email']`).value;
+        const password=signUpForm.querySelector(`[name='password']`).value
+
+
+        localStorage.setItem=('name',name)
+        localStorage.setItem=('email',email)
+        localStorage.setItem=('password',password)
+
+        window.location.href='./movie.html'
+    })
+</script>
+</html>

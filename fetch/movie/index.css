@@ -1,0 +1,118 @@
+
+*{
+    margin: auto;
+    padding: auto;
+    scroll-behavior: smooth;
+    text-align: center;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    width: 100%;
+    height: 1000px;
+}
+
+#wrapper{
+    
+    box-shadow: 0px -25px 20px -20px rgba(0, 0, 0, 0.45), 25px 0 20px -20px rgba(0, 0, 0, 0.45), 0px 25px 20px -20px rgba(0, 0, 0, 0.45), -25px 0 20px -20px rgba(0, 0, 0, 0.45);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 20px;
+    font-weight: bolder;
+    color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: space-evenly;
+    background-image: linear-gradient(yellow,aqua);
+    margin-top: 1px;
+    margin-bottom: 200px;
+}
+
+button{
+
+    height: 20px;
+    border-radius: 10px;
+    color: black;
+    cursor: pointer;
+    
+}
+a{
+    text-decoration: none;
+}
+
+p:hover{
+color: white;
+padding: 10px;
+cursor: pointer;
+}
+
+input{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 20px;
+    margin-bottom: 10px;
+img{
+    height: 160px;
+}
+    
+}
+
+#container{
+   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 20px;
+    margin-top: 5%;
+    margin-left:5% ;
+    margin-right: 5%;
+    background-image: aqua,yellow;
+    
+}
+#container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 10px;
+    /* background-color: red; */
+
+}
+#container>div:hover{
+    padding: 50px;
+    border-radius: 20px;
+ 
+}
+#login-form{
+    margin-top: 150px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 3px solid black;
+background-color: rgb(140,69,67);
+}
+
+h2{
+margin-top: 150px;
+}
+
+#signup-form{
+    text-decoration: none;
+    font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border: 3px solid black;
+width: 500px;
+height: 200px;
+background-color: rgb(140,69,67);
+}
+
+h3{
+    
+    font-weight: bolder;
+    font-size: 50px;
+}

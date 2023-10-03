@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+<body>
+    <h2>login</h2>
+    <form action="" id="login-form">
+        <input type="text" name="email" placeholder="Enter Your Email" required>
+        <input type="text" name="password" placeholder="Enter Your Password" required>
+        <button type="submit">sumit</button>
+    </form>
+</body>
+<script>
+    let loginForm=document.getElementById('login-form');
+    loginForm.addEventListener("submit",function(event){
+        event.preventDefault()
+
+        let email=loginForm.querySelector(`[name='email']`)
+        let password=loginForm.querySelector(`[password='password']`);
+
+        let storedEmail=localStorage.getItem('email')
+        let storedPassword=localStorage.getItem("password")
+
+        if(email === storedEmail && password === storedPassword){
+            window.location.href='./index.html'
+        }
+        else{
+            alert(`email or password in incorrect`)
+        }
+    })
+</script>
+</html>
