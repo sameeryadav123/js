@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Local Storage Example</title>
+  <link rel="stylesheet" href="local.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Enter Your Deatails</h1>
+        <form id="information">
+           
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <br>
+
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <br>
+            <input type="submit" >
+        </form>
+    </div>
+    <div id="storedInfo">
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <th id="storedName"></th>
+                <th id="storedAge"></th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="local.js">
+    </script>
+</body>
+</html>
