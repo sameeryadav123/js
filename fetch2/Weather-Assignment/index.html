@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+   
+      <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    
+    <span style="font-style: italic; background-image: linear-gradient(aqua,yellow); padding: 10px; border-radius: 5px;">NOTE:- Please enter the  <span style="font-style: italic; font-weight: 700; text-decoration: underline;">City or Country  </span>name so you can see the map </span>
+    
+    <div id="container">
+        <div id="navbar">
+            <input type="text" id="cityName" placeholder="Enter City Name">
+            <button onclick="fetchWeather()">Search</button>
+
+        </div>
+
+        <div class="left">
+            <div id="weatherDetails">
+
+                <img src="" alt="weatherIcon" id="weatherIcon">
+                <p>Min Temp: <span id="minTemp"></span></p>
+                <p>Max Temp : <span id="maxTemp"></span></p>
+                <p>Wind : <span id="wind"></span></p>
+                <p>Clouds :<span id="clouds"></span></p>
+                <p>Sunrise : <span id="sunrise"></span></p>
+                <p>Sunset: <span id="sunset"></span></p>
+            </div>
+        </div>
+
+        <div class="right">
+            <iframe id="googleMap" src="" frameborder="0"></iframe>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
