@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Api with 5 day forcast </title>
+<link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  
+
+    <h1>Weather Api with  forcast </h1>
+    <div id="container">
+        <div class="item1">
+            <input type="text" id="cityName" placeholder="Enter City name">
+            <button onclick="fetchWeather()">Search</button>
+        </div>
+       
+        <div class="item3">
+            <div class="left">
+                <div id="weatherDeatails">
+                    <img src="" alt="weatherIcon" id="weatherIcon">
+                    <p>Min-Temp:<span id="min_temp"></span></p>
+                    <p>Max-Temp:<span id="max_temp"></span></p>
+                    <p>Clouds:<span id="clouds"></span></p>
+                    <p>Wind:<span id="wind"></span></p>
+                    <p>Sunrise:<span id="sunrise"></span></p>
+                    <p>Sunset:<span id="sunset"></span></p>
+                </div>
+            </div>
+        </div>    
+        <div class="item4">
+            <div class="right">
+                <iframe  src="" id="googleMap" frameborder="0"></iframe>
+            </div>
+        </div>
+        
+        <div class="item5">
+            <div class="forecast-container">
+                <h2>5 Day Forecast</h2>
+                <div class="forecast-days" id="forecastDays">
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="weather.js"></script>
+</html>
+
+

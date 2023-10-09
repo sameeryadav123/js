@@ -1,0 +1,94 @@
+
+        
+body {
+font-family: 'Arial', sans-serif;
+
+margin: 0;
+padding: 0;
+height: 100vh;
+margin-bottom: 200px;
+
+}
+h1{
+text-align: center;
+font-style: italic;
+
+}
+
+
+
+input{
+padding: 8px;
+border: 2px solid black;
+border-radius: 5px;
+width: 350px;
+}
+button{
+width: 200px;
+background-color: black;
+color: whitesmoke;
+
+padding: 6px;
+border-radius: 3px;
+}
+
+.item1{
+grid-area:header ;
+margin-top: 5px;
+
+}
+
+.item3{
+grid-area:main ;
+margin-top: 5px;
+border-top:1px solid black ;
+
+
+
+}
+.item4{
+grid-area:right ;
+border-top:1px solid black ;
+margin-top: 5px;
+
+}
+.item5{
+grid-area: footer;
+border-top:1px solid black ;
+margin-top: 5px;
+}
+
+
+p{
+font-size: 20px;
+color: rgb(151, 126, 130);
+font-weight: bolder;
+width: 200px;
+}
+#forCastDay{
+display: flex;
+}
+
+
+#container{
+display: grid;
+grid-template-areas: 
+
+'header header header header header header'
+'main main  right right footer footer'
+;
+gap: 10px;
+background-image:linear-gradient(yellow,aqua);
+padding: 100px;
+
+border: 1px solid black;
+border-radius: 40px;
+margin-right: 5%;
+margin-left: 5%;
+
+
+}
+#googleMap{
+width: 700px;
+height: 400px;
+}
