@@ -1,0 +1,21 @@
+
+#container{
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 20px;
+background-color: whitesmoke;
+
+}
+table{
+    border-collapse: collapse;
+    background-image: linear-gradient(aqua,yellow);
+    border: 1px solid black;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+}
+tr,td{
+    border: 1px solid black;
+}
